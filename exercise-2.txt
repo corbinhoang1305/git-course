@@ -1,0 +1,7 @@
+git commit --amend: dùng dể sửa dổi commit gần nhất mà không tạo commit mới như sửa message, them file
+
+git commit --amend -m"<message>": dùng dể sửa dổi message cho commit gần nhất
+
+git restore --stage <file>: dùng dể bỏ file ra khỏi Staging Area mà không làm mất thay dổi trong Working Area 
+
+git reset HEAD~1: dùng dể hoàn tác commit gần nhất, nhưng vẫn giữ thay dổi trong Working Directory
